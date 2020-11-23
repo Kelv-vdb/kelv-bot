@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@discordjs/opus": "^0.3.3",
+    "@types/node": "^14.14.2",
+    "axios": "^0.20.0",
+    "discord-akairo": "^8.1.0",
+    "discord.js": "12.3.1",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.2.7",
+    "fluent-ffmpeg": "^2.1.2",
+    "prettier": "^2.1.2",
+    "ts-node": "^9.0.0",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.0.3",
+    "ytdl-core": "^4.0.0"
+  },
+  "name": "kelv-bot",
+  "version": "1.0.0",
+  "main": "dist/bot.js",
+  "devDependencies": {},
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "node .",
+    "dev": "tsc-watch --noClear --onSuccess \"yarn start\""
+  },
+  "keywords": [],
+  "author": "Kelv",
+  "license": "ISC",
+  "description": ""
+}
